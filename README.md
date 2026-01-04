@@ -1,0 +1,2 @@
+# count_msgs
+rbsys25_as2のノード用メッセージファイル
