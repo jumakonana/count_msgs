@@ -1,2 +1,2 @@
-uint8 period
-uint8 deadline
+uint8 minute
+uint8 second
