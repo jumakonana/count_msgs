@@ -1,2 +1,2 @@
 uint8 minute
-uint8 second
+uint8 second 
