@@ -1,5 +1,5 @@
 # 経過時間計測パッケージ用のメッセージファイル定義パッケージ
-rbsys25_as2[https://github.com/jumakonana/rbsys25_as2.git]のためのメッセージ型を作成するメッセージファイル
+rbsys25_as2[https://github.com/jumakonana/rbsys25_as2.git] のためのメッセージ型を作成するメッセージファイル
 
 2つのuint8型のデータを扱う
 ```
