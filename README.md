@@ -1,12 +1,24 @@
-# 経過時間計測パッケージ用のメッセージファイル定義パッケージ
-rbsys25_as2[https://github.com/jumakonana/rbsys25_as2.git] のためのメッセージ型を作成するメッセージファイル
+# 経過時間メッセージ定義パッケージ
+ROS2において, 経過時間([分]:[秒])を扱うためのメッセージ型を作成するパッケージ
 
-2つのuint8型のデータを扱う
+パブリッシャ・サブスクライバによる通信を想定
+
+## Count.msg
+経過時間([分]:[秒])のメッセージ定義ファイル
+
+2つのuint8型のデータを生成する
+
+- メッセージ名: `Count`
 ```
-uint8 minute
-uint8 second
+minute  (分) 
+second  (秒)
 ```
-minuteが分, secondが秒の値となる
+
+以下のようなパッケージで利用できる
+
+- rbsys25_as2 [https://github.com/jumakonana/rbsys25_as2.git]
+
+
 
 ## パッケージの構造
 ```
